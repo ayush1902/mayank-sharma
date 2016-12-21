@@ -1,0 +1,221 @@
+body, h1, h2, h3, h4, p, a, ul, li, ol, div, section, figure, hr {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: maison;
+	src: url('maison-neue-light.ttf');
+}
+@font-face {
+	font-family: maison-b;
+	src: url('maison-neue-bold.ttf');
+}
+@font-face {
+	font-family: maison-m;
+	src: url('maison-neue-medium.otf');
+}
+body {
+	background-color: #f8f8f8;
+	font-family: maison;
+	font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.project-content {
+	margin-top: 1.5em; font-size: 17px; line-height: 30px;
+}
+.container {
+	max-width: 700px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 48px; 
+}
+
+.avatar-img {
+	margin-top:0.5em;
+}
+.caption {
+	font-size: 12px;
+	color: #989898;
+}
+div {
+	display: block;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+#bio-line {
+	display: block;
+	margin-top: 2em;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.link {
+	border-bottom: 1px solid #358CF6;
+}
+.link:hover {
+	color: #358CF5;
+}
+hr {
+	border: 1px solid #D0011B;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+#work, #navigation {
+	width: 100%;
+	display: flex;
+	flex-wrap: flex;
+}
+.left, .right {
+	font-size: 12px;
+	font-family: maison-m;
+}
+.right {
+	text-align: right;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+width: 58.33%;
+}
+.col-8 {
+	width: 66.66%
+}
+.col-9 {
+	width: 75%
+}
+.col-10 {
+	width: 83.33%
+}
+.col-11 {
+	width: 91.66%
+}
+.col-12 {
+	width: 100%;
+}
+#project-desc {
+	font-size: 12px;
+}
+#project-img {
+	margin-right: 0.5em;
+}
+#title {
+	font-family: maison-b;
+}
+#desc {
+	line-height: 19px;
+	
+}
+.button {
+	background-color: inherit;
+	border: 0.1px solid #358CF6 ;
+	color: #358CF6;
+	padding: 6px;
+	margin-top:10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.button:hover {
+	background-color: #358CF9;
+	color: #fff;
+}
+h4 {
+	font-family: maison-m;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+h3 {
+	font-family: maison-m;
+	color: #D46A6A;
+	margin-bottom: 1em;
+	margin-top:0.5em;
+}
+h2 {
+	font-family: maison-m;
+	color: #000;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+#experience, #contact, #together, #writing, #project-main {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+/* Cursor blink*/
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+.fancy-box {
+	border: 3px solid #454545;
+	padding: 1em;
+	font-size: 17px;
+	margin: 1em 0;
+}
+li {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+li>span {
+	font-family: maison-b;
+
+}
+ul {
+	font-size: 17px;
+}
+.slider {
+	margin-top: 1em	;
+}
+
