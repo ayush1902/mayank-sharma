@@ -4,6 +4,15 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	padding: 0;
 	box-sizing: border-box;
 }
+h5 {
+	border: 0;
+	margin: 1.5em 0 0.5em 0;
+	padding: 0;
+	color: #D46A6A;
+	font-family: maison-m;
+	font-size: 22px;
+
+}
 figure {
 	width: 100%;
 }
@@ -57,10 +66,16 @@ a {
 	color: inherit;
 }
 .link {
-	border-bottom: 1px solid #358CF6;
+	border-bottom: 2px solid #358CF6;
 }
 .link:hover {
 	color: #358CF5;
+}
+.link-2 {
+	border-bottom: 2px solid #009688;
+}
+.link-2:hover {
+	color: #009688
 }
 hr {
 	border: 1px solid #D0011B;
@@ -122,14 +137,15 @@ width: 58.33%;
 
 #project-img {
 	margin-top: 0.5em;
-	padding-right: 0.6em;
+	padding-right: 1em;
 }
 #title {
 	font-family: maison-b;
 
 }
 #desc {
-	line-height: 19px;
+	line-height: 19.5px;
+	margin-bottom: 0.8em;
 }
 
 .button {
