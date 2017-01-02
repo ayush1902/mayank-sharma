@@ -11,6 +11,8 @@ h5 {
 	color: #D46A6A;
 	font-family: maison-m;
 	font-size: 22px;
+	letter-spacing: 0.7px;
+
 
 }
 figure {
@@ -27,6 +29,14 @@ figure {
 @font-face {
 	font-family: maison-m;
 	src: url('maison-neue-medium.otf');
+}
+@font-face {
+	font-family: brandon;
+	src: url('brandon-grotesque-regular.otf');
+}
+@font-face {
+	font-family: brandon-b;
+	src: url('brandon-grotesque-bold.otf');
 }
 body {
 	background-color: #f8f8f8;
@@ -171,6 +181,7 @@ h3 {
 	color: #D46A6A;
 	margin-bottom: 1em;
 	margin-top:0.5em;
+	letter-spacing: 0.7px;
 }
 h2 {
 	font-family: maison-m;
