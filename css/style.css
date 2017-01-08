@@ -4,44 +4,36 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	padding: 0;
 	box-sizing: border-box;
 }
+.logo {
+	width: 25%;
+}
 h5 {
 	border: 0;
 	margin: 1.5em 0 0.5em 0;
 	padding: 0;
 	color: #D46A6A;
-	font-family: maison-m;
+	font-weight: 500;
 	font-size: 22px;
 	letter-spacing: 0.7px;
-
-
 }
 figure {
 	width: 100%;
 }
-@font-face {
-	font-family: maison;
-	src: url('maison-neue-light.ttf');
+#resume {
+	text-align: center;
+	margin:0;
+	border:0;
+	padding: 0;
 }
-@font-face {
-	font-family: maison-b;
-	src: url('maison-neue-bold.ttf');
-}
-@font-face {
-	font-family: maison-m;
-	src: url('maison-neue-medium.otf');
-}
-@font-face {
-	font-family: brandon;
-	src: url('brandon-grotesque-regular.otf');
-}
-@font-face {
-	font-family: brandon-b;
-	src: url('brandon-grotesque-bold.otf');
+#nav li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 1.5em;
 }
 body {
 	background-color: #f8f8f8;
-	font-family: maison;
-	font-weight: 400;
+	font-family: 'Ubuntu';
+	font-weight: 300;
     font-size: 20px;
     line-height: 32px;
 }
@@ -55,7 +47,10 @@ body {
 	margin-top: 60px;
 	margin-bottom: 48px; 
 }
-
+.nav-el:hover {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #454545;
+}
 .avatar-img {
 	margin-top:0.5em;
 }
@@ -75,17 +70,12 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
 .link {
-	border-bottom: 2px solid #358CF6;
-}
-.link:hover {
-	color: #358CF5;
-}
-.link-2 {
 	border-bottom: 2px solid #009688;
 }
-.link-2:hover {
-	color: #009688
+.link:hover {
+	color: #009688;
 }
 
 hr {
@@ -106,7 +96,7 @@ hr {
 #work {}
 .left, .right {
 	font-size: 12px;
-	font-family: maison-m;
+	font-weight: 400;
 }
 .right {
 	text-align: right;
@@ -156,8 +146,7 @@ width: 58.33%;
 	padding-right: 1em;
 }
 #title {
-	font-family: maison-b;
-
+	font-weight: 500;
 }
 #desc {
 	line-height: 19.5px;
@@ -166,38 +155,55 @@ width: 58.33%;
 
 .button {
 	background-color: inherit;
-	border: 0.1px solid #358CF6 ;
-	color: #358CF6;
-	padding: 0.5em;
+	border: 0.1px solid #454545 ;
+	color: #454545;
+	padding: 0.7em;
 	border-radius: 3px;
 	margin-top: 5em;
+	border-radius: 30px;
+	text-align: center;
 
 }
 .button:hover {
-	background-color: #358CF9;
+	background-color: #009688;
 	color: #fff;
+	border: none;
 }
 h4 {
-	font-family: maison-m;
+	font-weight: 500;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
 h3 {
-	font-family: maison-m;
+	font-weight: 500;
 	color: #D46A6A;
 	margin-bottom: 1em;
 	margin-top:0.5em;
 	letter-spacing: 0.7px;
 }
-h2 {
-	font-family: maison-m;
-	color: #000;
+h1 {
+	font-weight: 700;
+	color: #454545;
+	letter-spacing: 2px;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
+	line-height: 40px;
+	font-size: 45px;
+}
+h2 {
+	font-weight: 400;
+	color: #545454;
+	letter-spacing: 2px;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+	line-height: 40px;	
 }
 #footer, #experience, #bio-line, #contact, #together, #writing, #project-main, #design_process {
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+#bio-line {
+		text-align: center;
 }
 /* Cursor blink*/
 .typed-cursor{
@@ -246,7 +252,7 @@ li {
 	margin-bottom: 1em;
 }
 li>span {
-	font-family: maison-b;
+	font-weight: bold;
 
 }
 ul {
