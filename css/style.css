@@ -12,7 +12,7 @@ h5 {
 	margin: 1.5em 0 0.5em 0;
 	padding: 0;
 	color: #454545;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 22px;
 	letter-spacing: 0.7px;
 }
@@ -38,7 +38,7 @@ i {
 }
 body {
 	background-color: #f8f8f8;
-	font-family: 'Roboto Slab';
+	font-family: 'Rubik';
 	font-weight: 300;
     font-size: 20px;
     line-height: 32px;
@@ -47,7 +47,7 @@ body {
 	margin-top: 1em; font-size: 17px; line-height: 30px; margin-bottom: 1em;
 }
 .container {
-	max-width: 715px;
+	max-width: 723px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 60px;
@@ -152,7 +152,7 @@ width: 58.33%;
 	padding-right: 1em;
 }
 #title {
-	font-weight: 400;
+	font-weight: 500;
 }
 #desc {
 	line-height: 19.5px;
@@ -176,12 +176,12 @@ width: 58.33%;
 	border: none;
 }
 h4 {
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
 h3 {
-	font-weight: 700;
+	font-weight: 500;
 	color: #454545;
 	margin-bottom: 1em;
 	margin-top:0.5em;
