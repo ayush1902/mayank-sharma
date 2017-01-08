@@ -8,6 +8,7 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	width: 25%;
 }
 h5 {
+	font-family: 'Karla';
 	border: 0;
 	margin: 1.5em 0 0.5em 0;
 	padding: 0;
@@ -87,7 +88,7 @@ a {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(212,106,106,0), rgba(212,106,106,0.75), rgba(212,106,106,0));
+    background-image: linear-gradient(to right, rgba(69, 69, 69, 0), rgba(69, 69, 69, 0.85), rgba(69, 69, 69, 0));
     margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
@@ -181,6 +182,7 @@ h4 {
 	margin-top: 0.5em;
 }
 h3 {
+	font-family: 'Karla';
 	font-weight: 500;
 	color: #454545;
 	margin-bottom: 1em;
@@ -188,6 +190,7 @@ h3 {
 	letter-spacing: 0.7px;
 }
 h1 {
+	font-family: 'Karla';
 	font-weight: 700;
 	color: #454545;
 	letter-spacing: 2px;
@@ -258,7 +261,7 @@ li {
 	margin-bottom: 1em;
 }
 li>span {
-	font-weight: bold;
+	font-weight: 500;
 
 }
 ul {
@@ -297,4 +300,14 @@ ul {
 	.container {
 		margin-top:5%;
 	}
+}
+
+#twitter:hover {
+	color: #00aced;
+}
+#linkedIn:hover {
+	color: #007bb6;
+}
+#medium:hover {
+	color:#14c767;
 }
