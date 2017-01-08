@@ -38,7 +38,7 @@ i {
 }
 body {
 	background-color: #f8f8f8;
-	font-family: 'Quicksand';
+	font-family: 'Roboto Slab';
 	font-weight: 300;
     font-size: 20px;
     line-height: 32px;
@@ -152,7 +152,7 @@ width: 58.33%;
 	padding-right: 1em;
 }
 #title {
-	font-weight: 500;
+	font-weight: 400;
 }
 #desc {
 	line-height: 19.5px;
@@ -176,7 +176,7 @@ width: 58.33%;
 	border: none;
 }
 h4 {
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
