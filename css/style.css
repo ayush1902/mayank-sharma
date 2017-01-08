@@ -11,8 +11,8 @@ h5 {
 	border: 0;
 	margin: 1.5em 0 0.5em 0;
 	padding: 0;
-	color: #D46A6A;
-	font-weight: 500;
+	color: #454545;
+	font-weight: 700;
 	font-size: 22px;
 	letter-spacing: 0.7px;
 }
@@ -25,14 +25,20 @@ figure {
 	border:0;
 	padding: 0;
 }
-#nav li {
+#footer {
+	text-align: center;
+}
+#footer li, #nav li {
 	list-style-type: none;
 	display: inline;
 	margin-left: 1.5em;
 }
+i {
+	color: #454545;	
+}
 body {
 	background-color: #f8f8f8;
-	font-family: 'Ubuntu';
+	font-family: 'Quicksand';
 	font-weight: 300;
     font-size: 20px;
     line-height: 32px;
@@ -41,7 +47,7 @@ body {
 	margin-top: 1em; font-size: 17px; line-height: 30px; margin-bottom: 1em;
 }
 .container {
-	max-width: 700px;
+	max-width: 715px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 60px;
@@ -175,8 +181,8 @@ h4 {
 	margin-top: 0.5em;
 }
 h3 {
-	font-weight: 500;
-	color: #D46A6A;
+	font-weight: 700;
+	color: #454545;
 	margin-bottom: 1em;
 	margin-top:0.5em;
 	letter-spacing: 0.7px;
