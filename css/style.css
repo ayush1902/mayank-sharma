@@ -43,6 +43,9 @@ body {
 	font-weight: 300;
     font-size: 20px;
     line-height: 32px;
+    background-image: url("bg.png");
+    background-repeat: repeat;
+
 }
 .project-content {
 	margin-top: 1em; font-size: 17px; line-height: 30px; margin-bottom: 1em;
@@ -164,14 +167,29 @@ width: 58.33%;
 	background-color: inherit;
 	border: 0.1px solid #454545 ;
 	color: #454545;
-	padding: 0.7em;
+	padding: 1em;
+	text-transform: uppercase;
+	font-size: 14px;
 	border-radius: 3px;
-	margin-top: 5em;
+	margin: 5em 1em 0 1em;
+	border-radius: 30px;
+	text-align: center;
+	font-weight: 400;
+
+}
+.button2 {
+	background-color: inherit;
+	border: 0.1px solid #454545 ;
+	color: #454545;
+	padding: 0.6em;
+	font-size: 13px;
+	border-radius: 3px;
+	margin: 5em 0 0 0;
 	border-radius: 30px;
 	text-align: center;
 
 }
-.button:hover {
+.button:hover, .button2:hover {
 	background-color: #009688;
 	color: #fff;
 	border: none;
@@ -214,42 +232,10 @@ h2 {
 #bio-line {
 		text-align: center;
 }
-/* Cursor blink*/
-.typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
 
+.projects {
+	margin-bottom: 5em;
+}
 .fancy-box {
 	border: 3px solid #454545;
 	padding: 1em;
