@@ -14,7 +14,7 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 0 1% 1% 0;
+	margin: 0 2% 2% 0;
 
 	min-width: 320px;
 	max-width: 480px;
@@ -29,7 +29,6 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.9;
 
 }
 
@@ -83,7 +82,7 @@
 .grid figure p {
 	letter-spacing: 1.5px;
 	font-size: 78.5%;
-	font-weight: 400;
+	font-weight: 500;
 
 }
 

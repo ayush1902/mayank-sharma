@@ -57,6 +57,7 @@ body {
 	margin-top: 60px;
 	margin-bottom: 48px; 
 }
+
 .nav-el:hover {
 	padding-bottom: 4px;
 	border-bottom: 2px solid #454545;
@@ -175,6 +176,7 @@ width: 58.33%;
 	border-radius: 30px;
 	text-align: center;
 	font-weight: 400;
+	transition: all 0.3s ease 0s;
 
 }
 .button2 {
@@ -187,12 +189,12 @@ width: 58.33%;
 	margin: 5em 0 0 0;
 	border-radius: 30px;
 	text-align: center;
-
 }
 .button:hover, .button2:hover {
 	background-color: #009688;
 	color: #fff;
-	border: none;
+	border: 1px solid #009688;
+
 }
 h4 {
 	font-weight: 500;
@@ -296,4 +298,7 @@ ul {
 }
 #medium:hover {
 	color:#14c767;
+}
+#behance:hover {
+	color: #1769ff;
 }
