@@ -15,7 +15,6 @@
 	float: left;
 	overflow: hidden;
 	margin: 0 2% 2% 0;
-
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 195px;
@@ -24,19 +23,17 @@
 	cursor: pointer;
 }
 
+
 .grid figure img {
 	position: relative;
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-
 }
 
 .grid figure figcaption {
-	
 	color: #fff;
 	text-transform: none;
-	
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }

@@ -84,10 +84,10 @@ a {
 }
 
 .link {
-	border-bottom: 2px solid #009688;
+	border-bottom: 2px solid #ec008c;
 }
 .link:hover {
-	color: #009688;
+	color: #ec008c;
 }
 
 hr {
@@ -110,7 +110,7 @@ hr {
 }
 #work {}
 .left, .right {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 }
 .right {
@@ -169,17 +169,16 @@ width: 58.33%;
 }
 
 .button {
-	background-color: inherit;
-	border: 0.1px solid #454545 ;
-	color: #454545;
-	padding: 1em;
-	text-transform: uppercase;
-	font-size: 14px;
+	background-color: #343434;
+	border: 0.1px solid #343434;
+	color: #fff;
+	font-family: 'Karla';
+	padding: 1em 2em 1em 2em;
+	font-size: 16px;
 	border-radius: 3px;
 	margin: 5em 1em 0 1em;
-	border-radius: 30px;
 	text-align: center;
-	font-weight: 400;
+	letter-spacing: 0.6px;
 	transition: all 0.3s ease 0s;
 
 }
@@ -195,33 +194,34 @@ width: 58.33%;
 	text-align: center;
 }
 .button:hover, .button2:hover {
-	background-color: #009688;
+	background-color: #ec008c;
 	color: #fff;
-	border: 1px solid #009688;
+	border: 1px solid #ec008c;
 
 }
+
 h4 {
 	font-weight: 500;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
 h3 {
-	font-family: 'Karla';
+	font-family: 'Assistant';
 	font-weight: 500;
 	color: #454545;
 	margin-bottom: 1em;
 	margin-top:0.5em;
-	letter-spacing: 0.7px;
+	letter-spacing: 0.9px;
 }
 h1 {
-	font-family: 'Karla';
-	font-weight: 700;
+	font-family: 'Assistant';
+	font-weight: 800;
 	color: #454545;
 	letter-spacing: 2px;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
-	line-height: 40px;
-	font-size: 45px;
+	line-height: 60px;
+	font-size: 55px;
 }
 h2 {
 	font-weight: 400;
