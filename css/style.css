@@ -189,13 +189,14 @@ width: 58.33%;
 	border: 0.1px solid #343434;
 	color: #fff;
 	font-weight: 600;
-	padding: 1em 2em 1em 2em;
-	font-size: 16px;
+	padding: 0.8em 1.6em 0.8em 1.6em;
+	font-size: 17px;
 	border-radius: 3px;
 	margin: 5em 1em 0 1em;
 	text-align: center;
 	letter-spacing: 0.6px;
 	transition: all 0.3s ease 0s;
+	letter-spacing: 1px;
 
 }
 .button2 {
@@ -222,7 +223,7 @@ h4 {
 	margin-top: 0.5em;
 }
 h3 {
-	font-family: 'Assistant';
+	font-family: 'Catamaran';
 	font-weight: 500;
 	color: #454545;
 	margin-bottom: 1em;
@@ -230,8 +231,8 @@ h3 {
 	letter-spacing: 0.9px;
 }
 h1 {
-	font-family: 'Assistant';
-	font-weight: 800;
+	font-family: 'Catamaran';
+	font-weight: 700;
 	color: #454545;
 	letter-spacing: 2.5px;
 	margin-bottom: 1em;
@@ -242,10 +243,10 @@ h1 {
 h2 {
 	font-weight: 600;
 	color: #545454;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
-	line-height: 40px;	
+	line-height: 43px;	
 }
 #footer, #experience, #bio-line, #contact, #together, #writing, #project-main, #design_process {
 	margin-top: 2em;
