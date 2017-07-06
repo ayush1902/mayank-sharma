@@ -4,8 +4,13 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	padding: 0;
 	box-sizing: border-box;
 }
+
 .logo {
 	width: 25%;
+}
+.gif {
+	width: 50%;
+	margin: auto;
 }
 
 h5 {
@@ -13,7 +18,7 @@ h5 {
 	border: 0;
 	margin: 0em 0 0.5em 0;
 	padding: 0;
-	color: #454545;
+	color: #F2D1C1;
 	font-weight:700;
 	font-size: 19.5px;
 	letter-spacing: 0.7px;
@@ -41,28 +46,25 @@ figure {
 	margin-left: 1.5em;
 }
 i {
-	color: #454545;	
+	color: #D6FFB7;
 }
 body {
-	background-color: #f8f8f8;
+	background-color: #444140;
 	font-family: 'Overpass';
 	font-weight: 300;
-    font-size: 21px;
-    line-height: 33px;
-    background-image: url("bg.png");
-    background-repeat: repeat;
-    color: #454545;
-
+  font-size: 21px;
+  line-height: 35px;
+  color: #FF9D70;
 }
+
 ol>li {
 	list-style-type: upper-alpha;
 	margin-left: 1.1em;
 	font-size: 19px;
-
 }
 .interviews li {
 	list-style-type: circle;
-	margin-left: 1.1em; 
+	margin-left: 1.1em;
 }
 .project-content {
 	margin-top: 1em; font-size: 19px; line-height: 32px; margin-bottom: 1em;
@@ -72,12 +74,14 @@ ol>li {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 60px;
-	margin-bottom: 48px; 
+	margin-bottom: 48px;
 }
 
 .nav-el:hover {
 	padding-bottom: 4px;
-	border-bottom: 2px solid #454545;
+	border-bottom: 2px solid #D6FFB7;
+	color: #D6FFB7;
+	transition: 0.2s ease;
 }
 .avatar-img {
 	margin-top:0.5em;
@@ -100,22 +104,20 @@ a {
 }
 
 .link {
-	border-bottom: 2.75px solid #ec008c;
+	border-bottom: 2.75px solid #D6FFB7;
+	padding-bottom: 0.15em;
 }
 .link:hover {
-	color: #ec008c;
+	color: #D6FFB7;
+	transition: 0.2s linear;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(69, 69, 69, 0), rgba(69, 69, 69, 0.85), rgba(69, 69, 69, 0));
-    margin-top: 0.5em;
+  border: 1px solid #343434;
+  margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
-hr {
 
-}
 #work, #navigation, #initial-designs {
 	width: 100%;
 	display: flex;
@@ -185,19 +187,19 @@ width: 58.33%;
 }
 
 .button {
-	background-color: #343434;
-	border: 0.1px solid #343434;
-	color: #fff;
+	background-color: #D6FFB7;
+	border: 0.1px solid #D6FFB7;
+	color: #565656;
 	font-weight: 600;
-	padding: 0.8em 1.6em 0.8em 1.6em;
+	padding: 0.5em 0.8em;
+	text-transform: uppercase;
 	font-size: 17px;
 	border-radius: 3px;
-	margin: 5em 1em 0 1em;
+	margin: 1em;
 	text-align: center;
 	letter-spacing: 0.6px;
-	transition: all 0.3s ease 0s;
-	letter-spacing: 1px;
-
+	transition: all 0.3s ease;
+	display: inline-flex;
 }
 .button2 {
 	background-color: inherit;
@@ -211,9 +213,9 @@ width: 58.33%;
 	text-align: center;
 }
 .button:hover, .button2:hover {
-	background-color: #ec008c;
+	background-color: #1E1E24;
 	color: #fff;
-	border: 1px solid #ec008c;
+	border: 1px solid #1E1E24;
 
 }
 
@@ -221,11 +223,13 @@ h4 {
 	font-weight: 700;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
+	color: #F7EBE8;
+
 }
 h3 {
 	font-family: 'Catamaran';
 	font-weight: 500;
-	color: #454545;
+	color: #F7EBE8;
 	margin-bottom: 1em;
 	margin-top:0.5em;
 	letter-spacing: 0.9px;
@@ -233,7 +237,7 @@ h3 {
 h1 {
 	font-family: 'Catamaran';
 	font-weight: 700;
-	color: #454545;
+	color: #F7EBE8;
 	letter-spacing: 2.5px;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
@@ -242,11 +246,11 @@ h1 {
 }
 h2 {
 	font-weight: 600;
-	color: #545454;
+	color: #F7EBE8;
 	letter-spacing: 1.5px;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
-	line-height: 43px;	
+	line-height: 43px;
 }
 #footer, #experience, #bio-line, #contact, #together, #writing, #project-main, #design_process {
 	margin-top: 2em;
@@ -260,7 +264,7 @@ h2 {
 	margin-bottom: 5em;
 }
 .fancy-box {
-	border: 3px solid #454545;
+	border: 3px solid #F2D1C1;
 	padding: 1em;
 	font-size: 19px;
 	margin: 1em 0;
@@ -271,7 +275,7 @@ li {
 }
 li>span {
 	font-weight: 700;
-
+	color: #F7EBE8;
 }
 ul {
 	font-size: 19px;
@@ -309,6 +313,18 @@ ul {
 	.container {
 		margin-top:5%;
 	}
+	#nav {
+		font-size: 1rem;
+	}
+	.grid figure:last-child {
+		width: 100% !important;
+		max-width: 100%;
+	}
+	#bio-line h2 {
+		font-size: 1.5rem;
+		line-height: 38px;
+	}
+
 }
 
 #twitter:hover {
