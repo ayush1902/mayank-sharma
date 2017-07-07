@@ -12,7 +12,12 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	width: 50%;
 	margin: auto;
 }
-
+.profile-img {
+	border-radius: 100%;
+	box-shadow: 0 0 15px #454545;
+	width: 200px;
+	margin: 0.5em 0;
+}
 h5 {
 	font-family: 'Overpass';
 	border: 0;
@@ -46,15 +51,15 @@ figure {
 	margin-left: 1.5em;
 }
 i {
-	color: #D6FFB7;
+	color: #eee;
 }
 body {
-	background-color: #444140;
+	background-color: #434343;
 	font-family: 'Overpass';
 	font-weight: 300;
   font-size: 21px;
   line-height: 35px;
-  color: #FF9D70;
+  color: #FFF59D;
 }
 
 ol>li {
@@ -79,8 +84,8 @@ ol>li {
 
 .nav-el:hover {
 	padding-bottom: 4px;
-	border-bottom: 2px solid #D6FFB7;
-	color: #D6FFB7;
+	border-bottom: 2px solid #FF80AB;
+	color: #FF80AB;
 	transition: 0.2s ease;
 }
 .avatar-img {
@@ -104,11 +109,11 @@ a {
 }
 
 .link {
-	border-bottom: 2.75px solid #D6FFB7;
+	border-bottom: 2.75px solid #FF80AB;
 	padding-bottom: 0.15em;
 }
 .link:hover {
-	color: #D6FFB7;
+	color: #FF80AB;
 	transition: 0.2s linear;
 }
 
@@ -187,9 +192,9 @@ width: 58.33%;
 }
 
 .button {
-	background-color: #D6FFB7;
+	background-color: #eee;
 	border: 0.1px solid #D6FFB7;
-	color: #565656;
+	color: #454545;
 	font-weight: 600;
 	padding: 0.5em 0.8em;
 	text-transform: uppercase;
@@ -332,9 +337,11 @@ ul {
 }
 #linkedIn:hover {
 	color: #007bb6;
+
 }
 #medium:hover {
 	color:#14c767;
+
 }
 #behance:hover {
 	color: #1769ff;
