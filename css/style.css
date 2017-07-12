@@ -5,6 +5,72 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	box-sizing: border-box;
 }
 
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-outer {
+	position: relative;
+  height: 100%;
+  overflow: hidden;
+  flex-basis: 47%;
+  box-shadow: 0 2px 12px 2px #333;
+  transition: 0.25s ease;
+	margin: 0 1em 1em 0;
+}
+
+
+.card-inner {
+	position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 27%;
+  color: #aaa;
+  text-align: center;
+  transition: 0.25s ease;
+	color: #676767;
+}
+.card-inner h4 {
+	color: #676767;
+	margin: 3% 0 7% 0;
+	font-size: 0.95rem;
+	font-weight: 400;
+}
+.card-inner p {
+	font-size: 0.9rem;
+	line-height: 25px;
+	color: #676767;
+	margin: 0 1.5em 1em 1.5em;
+}
+.card-action {
+	border: 1px solid #989898;
+	font-size: 0.9rem;
+	padding: 0.3em 0.6em;
+	display: inline-block;
+	margin: 0.5em 0;
+	transition: 0.25s ease;
+}
+.card-action:hover {
+	background: #565656;
+	color: #fff;
+
+}
+.card-outer img {
+	width: 100%;
+	transition: 0.25 ease;
+}
+.card-outer:hover .card-inner {
+	height: 100%;
+}
+
+.card-outer:hover {
+	box-shadow: 0 4px 40px 4px #222;
+  transform: translateY(-4px);
+}
+/*end*/
+
 .logo {
 	width: 23%;
 }
@@ -320,10 +386,24 @@ ul {
 	.margin {
 		margin-left: 0;
 	}
+	.card-outer {
+		margin-right: 0;
+	}
 	#project-img {
 		padding-right: 0;
 		}
+		.projects {
+			display: block;
+		}
+		.card-outer h4 {
+			font-size: 1.3rem;
+			margin-top: 6%;
+		}
+		.card-outer p, .card-action {
+			font-size: 1.1rem;
+		}
 	}
+
 
 @media screen and (max-width: 500px) {
 	body {
@@ -343,6 +423,13 @@ ul {
 	}
 	hr {
 		margin: 1em 0;
+	}
+	.card-outer h4 {
+		font-size: 0.9rem;
+		margin-top: 5%;
+	}
+	.card-outer p, .card-action {
+		font-size: 0.9rem;
 	}
 
 }
