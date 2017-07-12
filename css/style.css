@@ -20,7 +20,6 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	margin: 0 1em 1em 0;
 }
 
-
 .card-inner {
 	position: absolute;
   bottom: 0;
@@ -49,7 +48,6 @@ body, h1, h2, h3, h4, p, a, ul, li, ol, div, img, section, figure, hr {
 	font-size: 0.9rem;
 	padding: 0.3em 0.6em;
 	display: inline-block;
-	margin: 0.5em 0;
 	transition: 0.25s ease;
 }
 .card-action:hover {
