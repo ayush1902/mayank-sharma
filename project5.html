@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Mayank Sharma | Design Thinker</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/unslider-dots.css"><link href="https://fonts.googleapis.com/css?family=Overpass:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div id="navigation">
+		<div class="left col-6"><a href="work.html">&larr; Projects</a></div>
+		<div class="right col-6">UX Research</div>
+	</div>
+	<hr>
+	<div id="project-main">
+		<h2>Programming Challenges for visually impaired</h2>
+		<p id="resume" style="margin-bottom: 1.5em;">
+			<a href="https://drive.google.com/open?id=1IurVo_pRVA4U4dh3amIH1fjpzpvuDeCQci2eku7Iq1A" class="button" target="_blank">Presentation</a>
+		</p>
+		<figure class="avatar-img">
+			<img src="images/impaired.png" alt="">
+		</figure>
+
+			<p class="project-content">
+				This research project marked my entry into the field of accessibility. We had to conduct interviews with visually impaired programmers, take surveys, contact people from online mailing lists. We asked the same open-ended questions to our users - “What are some of the challenges you encounter while programming?” The design problem here was how can we improve the programming workflow of visually impaired programmers. The project had many challenges - one of which included keeping things into mind while doing user research with visually impaired users. This project was outcome of wealth of knowledge imparted by Professor Joyojeet Pal in his class “Technology and Accessibility”.
+			</p>
+			<br>
+		<h4>Research Questions</h4>
+			<p class="project-content">
+			<ol>
+				<li>What challenges do people with visual impairment face while doing programming?</li>
+				<li>How can we improve the programming workflow of people with visual impairments?</li>
+				<li>What are some issues with existing softwares/IDE’s with regard to accessibility?
+			</li>
+			</ol>
+			<br>
+			</p>
+
+
+		<h4>Approach</h4>
+		<p class="project-content">
+			We conducted user interviews with expert programmers who were visually impaired. We also conducted surveys. After that we analysed the issues and needs in the form of affinity wall. We then came up with some design proposals and identified challenges in implementing those solutions.
+		</p>
+		<br>
+		<h4>User Interviews and Surveys</h4>
+		<p class="project-content">
+			We conducted interviews with expert programmers who were visually impaired. One of them was Screen Reader expert, and other was a Professor. We used “think aloud protocol while conducting interviews. Conducting contextual inquiry with visually impaired was different from that of sighted users. We had to keep certain things in mind like -
+			<ul class="interviews">
+				<li>Asking consistently through interaction</li>
+				<li>Addressing individuals, not assistants
+				</li>
+				<li>Informing about entrance and exit.
+				</li>
+				<li>Offering elbow as a guide
+				</li>
+				<li>Having blind participants bring their own devices
+				</li>
+				<li>Spoon theory - Their time is valuable and we should appreciate them for taking part in the study.</li>
+			</ul>
+			<br>
+		<figure class="avatar-img">
+			<img src="images/impaired1.png" alt="">
+			<p style="text-align: center; color: #787878; font-size: 16px;">User demonstrating guess the number program in python while thinking aloud</p>
+		</figure>
+		</p>
+		<br>
+
+		<h4>Analysis of User Needs</h4>
+		<p class="project-content">
+			For analyzing user needs, we gathered in data from interviews, surveys and online mailing lists in a form of affinity diagram.
+		</p>
+		<div class="slider">
+			<ul>
+				<li><img src="images/impaired2.png" alt=""></li>
+				<li><img src="images/impaired3.png" alt=""></li>
+				<li><img src="images/impaired4.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="fancy-box">
+			<ul>
+				<li><span>“[B02] </span> With my setup, JAWS will not announce tabs, unless I navigate by characters.”</li>
+
+				<li><span>"[B01]</span> If I have a block of code indented 3 levels deep, screen readers will never alert the user of the fact.”
+				</li>
+
+				<li><span>"[B01]</span> Announcing indentation as 'tab tab tab' can get very annoying and slow a person down.”</li>
+				<li><span>"[B03]</span> I don’t know whether else statement is a part of previous chain of “ifs” or whether it is referring to the big block”</li>
+
+			</ul>
+		</div>
+		<br>
+		<h4>Designing Personas</h4>
+		<img src="images/persona-impaired.jpg" alt="">
+		<br>
+		<br>
+		<h4>User Story</h4>
+		<div class="half-width">
+			<img src="images/user-story1.jpg" alt="">
+			<img src="images/user-story2.jpg" alt="">
+		</div>
+
+		<br>
+		<h4>Qualitative Results</h4>
+		<p class="project-content">
+			The data from the survey yielded following results in different areas. 14.3% of people described
+			their visual acuity as less than 20/20, 42.9% of users were totally blind and remaining 42.9%
+			had light sensitivity but unable to distinguish objects. In terms of IDEs used, it varied from
+			person to person. More than 50% of them used Visual Studio and Eclipse. On average, they
+			coded 20-30 hours a week. From the survey, we found that 62.5% of users were working on
+			python for the development purposes. This was mainly because many popular screen readers like
+			NVDA and ORCA were based on python. Since these screen readers were open source, it was
+			easy for an expert developer to customize it as per his/her needs.
+		</p>
+		<br>
+		<h4>Our Proposals</h4>
+		<p class="project-content">
+			By identifying patterns from our user research, we found that main issues were related to improper feedback of screen reader in the indentation and unable to navigate code (where am I problem). We proposed a design solution for each problem.
+		</p>
+		<h5>1. Sounds of varying frequencies for navigations</h5>
+		<p class="sub-content">We tried using sounds like “beep” with different frequencies and the sounds like “indent 1,2,..”. Each sound represented the distance of the line from the code. .</p>
+		<figure class="avatar-img">
+			<img src="images/impaired5.png" alt="">
+		</figure>
+		<br>
+		<h5>2. Content Mapping</h5>
+		<p class="sub-content">After conducting interviews, we found that for most of the general tasks, like email/file general navigation, they used a tree like file structure which helps him map the content on the screen. Taking advantage of this habit, we thought of a similar navigation style in code.</p>
+		<figure class="avatar-img">
+			<img src="images/impaired6.png" alt="">
+		</figure>
+		<br>
+		<h4>Further Research and Feedback</h4>
+			<p class="project-content">
+			Further research can be done by analyzing the preferences of different types of sound combinations - (Beeps), (TAB TAB TAB) (Indent 1, Indent 2...and so on). Also, the sound idea didn’t suit to everyone’s style. Some people had habit of memorizing code and they wanted to stick to that way. Due to limitation in time, we were able to interview 3 people and survey 7 people. With more time and resources, more comprehensive research can be done in future. Also, our solution to sound was suitable for users programming in python, which relies on indentation heavily.
+			</p>
+		<br>
+		<hr>
+		<br>
+		<h4>Some other projects</h4>
+		<ul>
+			<li><a href="project6.html" class="link">Nexus: Networking made easier</a><br>Application for following up with the recruiters or networks after any networking event  - whether it is in University or outside it. </li>
+
+			<li><a href="project4.html" class="link">Design Strategy at Chalopadho</a><br>Developed Content Strategy for the product to increase the engagement by 50% in teacher analytics.</li>
+
+			<li><a href="project3.html" class="link">Interactive Museum App</a><br>Incorporated various learning theories to engage kids like Constructivism, Behaviorism and Scaffolding. Our process involved defining learning goals, brainstorming, personas, storyboarding and wireframes.</li>
+
+			<li><a href="project1.html" class="link">Design Interfaces for Autism</a><br>Designing interfaces for children in Tammana Autism Center.</li>
+
+		</ul>
+		<br>
+		<hr>
+	</div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/unslider-min.js"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('.slider').unslider();
+		});
+	</script>
+</body>
