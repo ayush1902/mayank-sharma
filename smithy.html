@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  <script src="scripts/app.js" charset="utf-8"></script>
+  <title>UX Research Consulting at Smithy | Mayank Sharma</title>
+</head>
+<body>
+  <div id="side-nav" class="side-nav">
+    <ul class="menu-items">
+      <li><a href="index.html#one" onclick="toggle_nav(this)">About</a></li>
+      <li><a href="index.html#two" onclick="toggle_nav(this)">Work</a></li>
+      <li><a href="index.html#three" onclick="toggle_nav(this)">Contact</a></li>
+    </ul>
+  </div>
+  <div class="primary-nav" id="about">
+    <div class="branding">
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="title">
+        <p>Design Reseach. Accessibilty. Learning.</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div id="toggle-menu" onclick="toggle_nav(this)">
+        <div class="animated-icon">
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+          <div class="bar-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cover">
+      <img src="images/smithy-cover.png" alt="">
+  </div>
+    <div class="project-detail">
+      <a href="index.html#two">&larr; WORK</a>
+      <h2>UX Research Consulting at Smithy</h2>
+
+      <hr class="hr-type-2">
+
+      <p>When a client comes you for consulting, it becomes straightforward to sway into jumping to methods, design solutions or conclusions. But doing UX research consulting is much more than just presenting reports or recommendations. That’s what I learned when I was working with Smithy (previously Detroit Machine Tools) while working with them and solving their problems. Nevertheless, my team and I did end up giving recommendations and reports to our client, but it was essential to assess the situation before starting anything else.</p>
+      <br>
+
+      <h4>Objective</h4>
+      <p>When it came to structuring our UX project, we initially had to think about where they are in their current stage of the product lifecycle and organizational maturity. On conducting stakeholder interviews, we found that the organization Smithy, was in the beginning stage of the UX process and the priority of the client was to increase the conversion rate of Machine tool buyers. By conversation rate, client meant converting the number of website visits to calls for Smithy's CNC products since that was the primary mode of communication with sales and support team.</p>
+      <img src="images/p6-1.png" alt="">
+      <p>Talking about the Smithy, the website provides information, images, and video tutorials on the machines, as well as support for the customers. DMT also has an online payment system for the lower priced items and financing options for the higher priced ones.</p>
+
+      <h4>Hypothesis</h4>
+      <p>After stakeholder meetings, we started brainstorming hypothesis and questions to be answered based on organizational priorities. The fundamental questions we came up with were -</p>
+      <ul class="circle">
+        <li>Who are our primary users? What are their goals for buying that product?</li>
+        <li>How are people currently buying our machine products? How much of the buying happens online vs. offline?</li>
+        <li>What do they expect to find and to be able to do on companies’ websites? What are industry standards?</li>
+        <li>What problems do they face from beginning till the end of the process while looking at Smithy's products?</li>
+      </ul>
+
+      <br>
+      <h4>Methods</h4>
+      <p>Since our client needed “overall improvement” to the website, we divided our research into two phases - Exploratory study and Usability Research which answered the questions related to user’s needs, preferences and industry standards. Usability research focussed on the evaluation of interface itself.</p>
+
+      <br>
+      <h4>Conducting Research and Findings</h4>
+      <h5 class="highlight">Interiews</h5>
+      <p>We interviewed seven people - two stakeholders, five customers- to determine how people are currently buying machining products.
+      We found that customers were cost conscious, and considered second opinions and advice before making a purchase. They tend to appreciate tutorial videos and take seriously the conventional wisdom of online communities, which were very influential.</p>
+      <h5 class="highlight">Surveys</h5>
+      <p>We posted the survey on various online forums and groups and sent the survey to DMT’s customers and an engineering community, hoping to reach CNC and institutional buyers who were not present in our previous interview study. We offered to raffle off a $10 Amazon gift card to those who completed the survey. Overall we received 49 responses, of which eight we discarded, making for a total of 41, including reactions from CNC and institutional buyers.
+      This survey found that users most valued pricing information, customer testimonials, and customizability when they visit a website like DMT.</p>
+      <h5 class="highlight">Competitive Analysis</h5>
+      <p>We decided to have a combination of four different comparators(direct competitors, partial competitors, indirect competitors and analogous competitors). Next, we selected ten comparisons within these four categories. Then, we included five dimensions in the criteria for comparing products.</p>
+      <img src="images/p6-3.png" alt="">
+      <h5 class="highlight">Usability Tests</h5>
+      <p>From the data logs of the usability tests, we found specific critical issues with the site that we feel are significantly detrimental to the user experience of the website:</p>
+      <ul class="circle">
+        <li>Machining Tools” section is not standardized and is not well organized</li>
+        <li>Pricing information is not readily accessible</li>
+        <li>Search is not discoverable and not useful enough</li>
+        <li>Shipping information is not precise.</li>
+        <li>It is difficult to compare products</li>
+      </ul>
+      <p>Our tasks comprised of the following sceanrios:</p>
+      <ul class="circle">
+        <li>Tasks involving choosing machine tools of their choice by doing general website exploration</li>
+        <li>Tasks involving comparison of products with given dimensions</li>
+        <li>Tasks involving buying a specific product (given specs and payment details) for a scenario</li>
+      </ul>
+      <img src="images/p6-4.png" alt="">
+      <p class="caption">User doing a task</p>
+      <h5 class="highlight">Heuristic Evaluation</h5>
+      <p>We established the ten heuristics that we planned on using: feedback, metaphor, navigation, consistency & standards, prevention, memory, efficiency, help, recovery, and design. From these, we established general questions of user takeaways that we wanted to evaluate.
+      We found certain key issues with the site that we felt were significantly detrimental to the site:</p>
+      <ul class="circle">
+        <li>The user does not know how far or deep they are on the site at any given point</li>
+        <li>The main task flow of the site, adding items to the shopping cart and checking out, was inconsistent with web standards and user expectations.</li>
+        <li>Links aren’t labeled properly</li>
+      </ul>
+      <br>
+      <h4>Our Recommendation</h4>
+      <p>From each of our research methods, we identified key problems and came up with key recommendations. But we couldn’t just throw some suggestions at our client. We carefully assessed budget, timeline, and complexity of our recommendations and eventually recommended them.
+      We synthesized our findings and recommendations in the form of a 9min video. It laid our process, methods, findings, and recommendations. For more details see the video below. </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/elDjY_WM46E" frameborder="0" allowfullscreen></iframe>
+      <img src="images/p6-5.png" alt="">
+      <p class="caption">Our team discussion priorities for the implementation timeline</p>
+
+      <br>
+      <h4>Next Steps</h4>
+      <p>By giving the client benefit of focusing on the most urgent tasks which can be implemented within a short time frame, we provided them with an implementation timeline. Since the organization didn’t have any established UX team or development team (only consultants), we thought it would be a good idea to focus on “Where do we go from here?…”</p>
+      <img src="images/p6-6.png" alt="">
+
+    </div>
+  </div>
+</body>
+</html>

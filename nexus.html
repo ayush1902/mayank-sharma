@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  <script src="scripts/app.js" charset="utf-8"></script>
+  <title>Nexus - Networking and Follow-Up | Mayank Sharma</title>
+</head>
+<body>
+  <div id="side-nav" class="side-nav">
+    <ul class="menu-items">
+      <li><a href="index.html#one" onclick="toggle_nav(this)">About</a></li>
+      <li><a href="index.html#two" onclick="toggle_nav(this)">Work</a></li>
+      <li><a href="index.html#three" onclick="toggle_nav(this)">Contact</a></li>
+    </ul>
+  </div>
+  <div class="primary-nav" id="about">
+    <div class="branding">
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="title">
+        <p>Design Reseach. Accessibilty. Learning.</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div id="toggle-menu" onclick="toggle_nav(this)">
+        <div class="animated-icon">
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+          <div class="bar-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cover">
+      <img src="images/p1-cover.png" alt="">
+  </div>
+    <div class="project-detail">
+      <a href="index.html#section-two">&larr; WORK</a>
+      <h2>Nexus</h2>
+      <p>Networking and following up made easy</p>
+      <hr class="hr-type-2">
+      <p>Students and fresh graduates value their networks. Due to their busy schedule, they don’t get time to follow up with the recruiters or networks after any networking event - whether it is in University or outside it. Imagine in a networking event, you shake hands and connect with hundreds of people.
+
+      <br>Enter Nexus. A new way to follow up and connect with people. Now you don’t need to worry about any of your connection getting lost in the crowd.</p>
+      <br>
+      <h4>Background and Context</h4>
+      <p>This project came to life for few reasons. Firstly, as a student, my experience of attending career fairs in the university was quite stressful. As a designer, this became quite challenging because I was solving my own problem. Secondly, existing solutions were not effective and even more overwhelming. They focused more on making people adopt their own network for connecting and following up in the form of wearables or digital business cards. Lastly, user research (interviews and surveys) showed that people found it difficult to enter contact information or collect business cards.</p>
+      <br>
+      <h4>Scoping our Problem</h4>
+      <p>Initially, this problem seemed very broad. Ongoing through the process of diverging and converging, I ended up with well defined challenge.</p>
+      <p><span class="highlight-full">1. Diverging </span><br>Borrowing ideas from design sprint and doing the exercise of 8 crazy sketches, I came up with 8 different user stories for the problem. Each of the ideas in the stories were based on different settings and social environments.</p>
+      <img src="images/p1-2.png" alt="">
+      <p><span class="highlight-full">2. Converging</span> <br>
+      Since I was the only one in this project, instead of using zen voting, I started wearing different hats - technical feasibility, user focussed etc. Assuming those roles made me realize possible story I could go ahead with. I went ahead with the story of career fair and started defining that user story in detail.</p>
+      <br>
+      <h4>User Story</h4>
+      <p>After diverging and converging, greatest challenge was to choose one story. As mentioned before, I choose the story that best aligned with user research, technical feasibility and my intuition. Finally, after setting aside my personal feelings, I chose the story of the student in a career fair setting.</p>
+      <img src="images/p1-3.png" alt="">
+      <p class="caption">Journey of a user at a career fair</p>
+      <p>But the problem had to be scoped further. I decomposed the whole scenario into three phases - Before fair, during fair and after the fair. On analyzing pain points in different phases, I found that students reported maximum pain points after the career fair i.e they were unable to recall or follow up with the person. And so our challenge became,</p>
+      <blockquote>
+        "How might we design an application that helps student manage following with the networks after the event."
+      </blockquote>
+      <br>
+      <h4>What should the app do?</h4>
+      <p><span class="highlight">Key Use-Cases</span></p>
+      <img src="images/p1-4.png" alt="">
+      <p class="caption">Use Cases</p>
+      <p>Our key use cases were:</p>
+      <ul class="circle">
+        <li>Selecting Event (user can browse through list of events and take notes)</li>
+        <li>Adding contact quickly (since user will be in fast paced setting)</li>
+        <li>Follow up (users generally get overwhelmed after the process, so easing out this process is essential)</li>
+      </ul>
+      <p><span class="highlight">What the app should NOT do</span></p>
+      <ul class="circle">
+        <li>Not function as an application to connect (like Linkedin)</li>
+        <li>Not function as external social network separate from existing ones.</li>
+        <li>Event selecting and browsing are secondary functions</li>
+      </ul>
+      <p><span class="highlight">Design Rationale</span></p>
+      <img src="images/p1-5.png" alt="">
+      <p>I used ease of use, flexibility, connecting with recruiter and privacy as guiding principles for making design decisions. Click here to look at detailed design space analysis for different use cases. Key outcomes were -</p>
+      <ul class="numeric">
+        <li>Login using LinkedIn</li>
+        <li>Scanning Business Cards</li>
+        <li>Ability to take notes before interview</li>
+      </ul>
+      <br>
+      <h4>Prototyping and Validation</h4>
+      <img src="images/p1-6.jpg" alt="">
+      <p class="caption">Paper Prototyping and testing</p>
+      <p><span class="highlight">Prototyping and Testing</span><br>
+      Paper prototyping proved valuable for addressing user interface flows and other flawed navigation issues.</p>
+      <img class="gif" src="images/p1-7.gif" alt="">
+
+      <p>Key decisions that came out of the session were: </p>
+
+      <ul class="numeric">
+        <li>Unify the events page and the upcoming events page so that they both lead to a common page.</li>
+        <li>Modifying the affordance of the discard button. Instead of discard button, better option might be a pop-up “X” sign at the top right of the pop-up. Also, list of events needs to be added and less focus needs to be given on the calendar view.</li>
+        <li>Option to collapse and expand the calender view.</li>
+        <li>Have a clear list of completed and pending follow ups. If the user has completed a follow up, then he/she should be able to mark that as done and later view that in archived follow ups.</li>
+      </ul>
+
+      <p><span class="highlight">Design Evolution</span> <br>
+      Visually, the design evolved from paper to medium fidelity prototype in following fashion: </p>
+      <img src="images/p1-8.png" alt="">
+      <p class="caption">Design Evolution</p>
+      <p>In the design evolution, the basic architecture of the home page remained the same. On the other hand, screens involving filter design, follow up screen etc. Follow up screen initially included only two options - Pending and Completed follow ups. In the subsequent designs, the two options mentioned before got split into 3 options – Ongoing conversation, Awaiting reply and Pending response. These options were more relevant and discreet as compared to the initial ones and gave the user clear idea of status. Resulting change also led to change in the home screen as shown above.</p>
+      <br>
+      <h4>Final Design and Impact</h4>
+      <p>In the second round of user testing, I incorporated lots of feedback from users which included - </p>
+      <ul class="circle">
+        <li>"I wanted to have a whole page to type my notes"</li>
+        <li>"Icons can be more clear"</li>
+        <li>"Allow users to choose different templates"</li>
+        <li>"Adding people without business card"</li>
+      </ul>
+      <h5 class="highlight">Impact</h5>
+      <p>Realizing this mobile application in real can ease out the whole networking process for the students. Currently, university grads are under immense pressure with getting jobs and internship and this app would be a small step in easing out their pain by removing the need to collect everyone’s business card and being able to manage their networks effectively.</p>
+
+      <h5 class="highlight">Measuring Success</h5>
+      <p>Some of the metrics that can be used to gauge the success of the application-</p>
+      <ul class="numeric">
+        <li>No. of people followed up</li>
+        <li>No. of people from which you have heard back. (Ongoing conversation)</li>
+        <li>No. of business cards scanned.</li>
+        <li>User satisfaction before and after the app. (HATS Score.)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
