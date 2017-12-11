@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  <script src="scripts/app.js" charset="utf-8"></script>
+  <title>UX Strategy at Disease Detectives | Mayank Sharma</title>
+</head>
+<body>
+  <div id="side-nav" class="side-nav">
+    <ul class="menu-items">
+      <li><a href="index.html#one" onclick="toggle_nav(this)">About</a></li>
+      <li><a href="index.html#two" onclick="toggle_nav(this)">Work</a></li>
+      <li><a href="index.html#three" onclick="toggle_nav(this)">Contact</a></li>
+    </ul>
+  </div>
+  <div class="primary-nav" id="about">
+    <div class="branding">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+      </div>
+      <div class="title">
+        <p>Design Reseach. Accessibilty. Learning.</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div id="toggle-menu" onclick="toggle_nav(this)">
+        <div class="animated-icon">
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+          <div class="bar-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cover">
+      <img src="images/disease-cover.png" alt="">
+  </div>
+    <div class="project-detail">
+      <a href="index.html#two">&larr; WORK</a>
+      <h2>UX Strategy at Disease Detectives</h2>
+
+      <hr class="hr-type-2">
+
+      <p>Imagine a game for kids which allows them to share their personal health data to hospitals (and parents) in a fun and interactive way? Is the idea worth moving forward? Let’s find out!</p>
+      <img src="images/p4-1.png" alt="">
+      <br>
+
+      <h4>Background</h4>
+      <p>I was introduced to this project in its mid stage. The idea was the following, “Getting children to give their health data to their parents or doctors is very difficult. By proposing a game like application idea to share personal health data to parents and other stakeholders, our client was very keen to go ahead with this idea. <br><br>
+      In its first phase the client had interviewed around 60 stakeholders comprising of parents and medical services. This time, however, client wanted to expand horizons to other stakeholders including school nurses, pediatricians and clinical researchers. <span class="highlight-full">My role was to handle research for school administrators and nurses.</span></p>
+
+      <br>
+
+      <h4>Hypothesis</h4>
+      <p>Even though key goals of this project were already defined, we had to come up with different hypothesis for each stakeholders. To do this task, we brainstormed potential goals for each stakeholders (schools, clinical researcher, pediatricians) and used zen to reach final list of hypothesis. Since my role was mostly related to managing school’s stakeholders, following hypothesis question marked the beginning of our user research - </p>
+      <blockquote>
+        “School nurses would be better able to respond to the health needs of students if data collection/analysis were more efficient and involved direct input from children.”
+      </blockquote>
+      <p>This hypothesis was validated against school admins, nurses and health workers. I was really excited since it was an opportunity for me to bring my previous experience in educational technology and working with schools in this research.</p>
+      <br>
+
+      <h4>Methods</h4>
+      <p>Since we had to identify potential gaps as well as identify the need for “innovative” data collection methods in education space, we divided our research into <span class="highlight-full">competitive analysis and qualitative interviews.</span> Our research answered several questions including - </p>
+      <ul class="circle">
+        <li>What are existing applications that are used to interface school kids and other stakeholders in interactive way?</li>
+        <li>What is the existing state of data collection in public schools? What challenges (if any) do nurses face while collecting data from children? </li>
+        <li>Where does the problem lie? In data collection or standardization? </li>
+      </ul>
+      <p>Naturally, qualitative method was useful in answering last two questions while competitive analysis was useful in answering the first. </p>
+      <br>
+
+      <h4>Conducting Research</h4>
+      <p>Conducting the research involved figuring out all kinds of logistics as well as participant demographics. For participants, we had brainstormed list of potential stakeholders that could be useful for our research which included - </p>
+      <ul class="circle">
+        <li><span class="highlight-full">School admins</span>: Since they are in charge of managing health records for every students. </li>
+        <li><span class="highlight-full">School nurses</span>:They are directly in contact with the kids. It would be useful to have first hand experiences with the kids.</li>
+        <li><span class="highlight-full">Health Workers: </span>These people aren’t necessary directly associated with the kids, but have experiences in handing and managing health related information in the schools.</li>
+      </ul>
+      <p>Since we were short on budget and time, recruiting the right participants was key. By focussing on average users, we were able to identify right stakeholders in our study.  Moreover, we decided to recruit via email since <span class="highlight-full">we had easy access to email lists for our participants.</span></p>
+      <h5 class="highlight">Interviews</h5>
+      <p>In order to conduct our interviews, we came up list of potential questions that we want to address from our participants. These included questions addressing how their current system works, challenges faced in data collection and first reactions about our idea. Since, we are targeting schools both in and out of Ann Arbor, all of the interviews were conducted remotely. </p>
+
+      <h5 class="highlight">Competitive Landscape Analysis</h5>
+      <p>Finding state of existing system was crucial in strategizing whether this idea is worth moving forward. To achieve this, we conducted competitive analysis addressing wide range of competitors who are making interactive apps for nurses, children and parents.</p>
+      <br>
+      <h4>Synthesizing Data</h4>
+      <img src="images/p4-2.png" alt="">
+      <p class="caption">Making sense out of everything!</p>
+      <p>From our interviews we found that schools had sufficient data collection methods today. The challenge exists elsewhere (forex: training, not enough nurses etc.). Even though there first reaction to it was somewhere between positive and neutral, <span class="highlight-full">he actual need was not having interactive game like interface for data collection.</span></p>
+      <img src="images/p4-3.png" alt="">
+      <p class="caption">Notable quotes from users</p>
+      <p>Similarly, from our landscape analysis we found that majority of the health related apps were addressed towards children and parents while <span class="highlight-full">there was lack of any interactive game-like applications for nurses and doctors in schools </span>which led to insight that there must be something that would be stopping teachers and nurses to work with such kind of apps. </p>
+      <img src="images/p4-4.png" alt="">
+      <p class="caption">Green color shows if that organization is catering to the that particular stakeholder</p>
+      <br>
+      <h4>Recommendations and Next Steps</h4>
+      <img src="images/p4-5.png" alt="">
+      <p>Our final recommendation to the client (in my case) included to <span class="highlight-full">not go ahead with the school health and wellness as the target customer segment for subsequent research.</span> Instead, we focussed on doing more research on speciality pediatricians, who expressed some interest but mentioned some added challenges. The purpose of this study was to identify if schools are a viable option for this idea or not. </p>
+    </div>
+  </div>
+</body>
+</html>

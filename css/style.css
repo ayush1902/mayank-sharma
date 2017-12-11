@@ -387,8 +387,15 @@ section:first-child {
 	font-size: 1.8rem;
 }
 .social-handles img {
-	width: 60px;
-	margin: 1em 1em 2em 0;
+	width: 50px;
+	margin-right: 1em;
+}
+.social-handles {
+	background: #90CAF9;
+	display: inline-block;
+	margin: 0.5em 0 2.5em 0;
+	padding: 1.5em 0.5em 1.5em 1.5em;
+	border-radius: 10px;
 }
 .medium-articles {
 	width: 60%;
